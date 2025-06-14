@@ -20,7 +20,7 @@ class DetailsScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ClipRRect(
-                borderRadius: BorderRadius.circular(20), // Rounded corners on image
+                borderRadius: BorderRadius.circular(20),
                 child: Image.network(
                   car.imageUrl,
                   width: 250,
